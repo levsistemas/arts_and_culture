@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Proyecto de backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --watch --env-file=.env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codo-a-Codo-4-0-Comision-24122/backend.git"
+  },
+  "keywords": [
+    "CaC"
+  ],
+  "author": "Alejandro Medici",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Codo-a-Codo-4-0-Comision-24122/backend/issues"
+  },
+  "homepage": "https://github.com/Codo-a-Codo-4-0-Comision-24122/backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

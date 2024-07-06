@@ -1,0 +1,1 @@
+UPDATE `usuarios` SET `Nombre` = 'Leandros', `Apellido` = 'Vegas', `Dni` = '320000000', `Celular` = '1155443323', `Sexo` = 'Masculinos', `Email` = 'levsistemasit@gmail.coma' WHERE `usuarios`.`id` = 2;
