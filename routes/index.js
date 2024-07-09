@@ -21,28 +21,10 @@ router.get('/', (req, res) => {
             <div>
                 <h1>Inicio de la pagina</h1>
                 <div>
-                    <a href='/users/local'>VER BASE DE DATOS LOCAL</a>
-                    <input type="button" value="Conectar" id="conectar1">
-                </div>
-                <div>
-                    <a href='/users/proyecto'>VER BASE DE DATOS LOCAL (PROYECTO)</a>
+                    <a href='/query/arts_and_culture'>VER BASE DE DATOS: ARTS & CULTURE</a>
                     <input type="button" value="Conectar" id="conectar2">
                 </div>
-                <div>
-                    <a href='/users/listado'>VER BASE DE DATOS REMOTA</a>
-                    <input type="button" value="Conectar" id="conectar3">
-                </div>
             </div>
-            <script>
-                const VALOR = localStorage.length;
-                for (let i=1; i <= VALOR; i++){
-                    localStorage.removeItem('usuario'+i);
-                }
-                localStorage.removeItem('id');
-                document.getElementById('conectar2').addEventListener('click', () => {
-                    
-                })
-            </script>
         </body>
         </html>`
         );
